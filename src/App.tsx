@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import ThemeToggle from './components/ThemeToggle';
 import { ThemeProvider } from './context/ThemeContext';
 import { motion } from 'framer-motion';
+import Education from './components/Education';
 
 function App() {
   const [scrollY, setScrollY] = useState(0);
@@ -36,8 +37,10 @@ function App() {
             <Hero />
           </motion.div>
           <About />
+          <Education/>
           <Skills />
           <Experience />
+          
           <Projects />
           <Contact />
         </main>
