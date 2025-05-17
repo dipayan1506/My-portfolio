@@ -96,7 +96,7 @@ const Hero: React.FC = () => {
             >
               <Linkedin size={24} />
             </a>
-            <a 
+            {/* <a 
               href="https://twitter.com" 
               target="_blank" 
               rel="noopener noreferrer"
@@ -104,7 +104,7 @@ const Hero: React.FC = () => {
               aria-label="Twitter"
             >
               <Twitter size={24} />
-            </a>
+            </a> */}
           </motion.div>
         </div>
 
@@ -120,6 +120,9 @@ const Hero: React.FC = () => {
             repeatDelay: 0.5
           }}
         >
+          <br/>
+          <br/>
+          <br/>
           <a href="#about" className="text-gray-600 dark:text-gray-400 flex flex-col items-center">
             <span className="mb-2 text-sm">Scroll Down</span>
             <ChevronDown size={24} />
