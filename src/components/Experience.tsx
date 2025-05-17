@@ -116,7 +116,7 @@ const Experience: React.FC = () => {
           className="mt-12 text-center"
         >
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1dG2ChnRNUU2dnsXSUiMFnvGc9HQ5VBFz/view?usp=sharing"
             className="btn btn-outline inline-flex items-center gap-2"
           >
             <Briefcase size={18} />

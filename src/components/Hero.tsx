@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.5 }}
           >
             <h1 className="mb-6 text-gray-900 dark:text-white">
-              <span className="block">Creative Developer</span>
+              <span className="block">Full Stack Developer</span>
               <span className="text-primary-600 dark:text-primary-400 block mt-2">& Designer</span>
             </h1>
           </motion.div>

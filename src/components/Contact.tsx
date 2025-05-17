@@ -99,7 +99,7 @@ const Contact: React.FC = () => {
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">Email</h4>
                   <a href="mailto:hello@example.com" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                    hello@example.com
+                    debnathdipayan042@gmail.com
                   </a>
                 </div>
               </div>
@@ -111,7 +111,7 @@ const Contact: React.FC = () => {
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">Phone</h4>
                   <a href="tel:+11234567890" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                    +1 (123) 456-7890
+                    +916009909376
                   </a>
                 </div>
               </div>
@@ -123,7 +123,7 @@ const Contact: React.FC = () => {
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">Location</h4>
                   <p className="text-gray-700 dark:text-gray-300">
-                    San Francisco, California
+                    Agartala,Tripura
                   </p>
                 </div>
               </div>
@@ -133,7 +133,7 @@ const Contact: React.FC = () => {
               <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Connect with me</h4>
               <div className="flex space-x-4">
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/dipayan1506" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-3 bg-gray-100 dark:bg-gray-800 rounded-full text-gray-700 dark:text-gray-300 hover:bg-primary-100 dark:hover:bg-primary-900/30 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
@@ -144,7 +144,9 @@ const Contact: React.FC = () => {
                   </svg>
                 </a>
                 <a 
-                  href="https://linkedin.com" 
+                  
+              href="https://www.linkedin.com/in/dipayan-debnath-50655b24a/" 
+
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-3 bg-gray-100 dark:bg-gray-800 rounded-full text-gray-700 dark:text-gray-300 hover:bg-primary-100 dark:hover:bg-primary-900/30 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"

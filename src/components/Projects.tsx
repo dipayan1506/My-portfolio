@@ -34,7 +34,7 @@ const Projects: React.FC = () => {
       tags: ['React.js', 'JavaScript', 'Tailwind CSS', 'MongoDB', 'Express.js', 'Node.js', 'Socket.io'],
       description: 'Real-time chatting platform with secure user authentication and instant messaging capabilities.',
       liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
+      githubUrl: 'https://github.com/dipayan1506/chat-app',
       details: 'Built a real-time chatting platform that supports user registration, login, and secure real-time communication, allowing multiple users to engage in instantaneous conversations on a responsive, cross-device interface. Integrated robust authentication using JWT and bcrypt for hashing passwords, ensuring secure data storage and user privacy. Utilized MongoDB for efficient storage of chat histories and user data.',
     },
     {
@@ -45,7 +45,7 @@ const Projects: React.FC = () => {
       tags: ['Next.js', 'Solidity', 'Hardhat', 'TypeScript', 'Tailwind CSS', 'JavaScript'],
       description: 'A blockchain-based platform for secure and transparent dispute resolution.',
       liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
+      githubUrl: 'https://github.com/dipayan1506/Decentralised-Arbiteration-System',
       details: 'Built a decentralized platform allowing clients to create disputes and enabling jury members to stake tokens, ensuring fair and secure dispute resolution through blockchain. Implemented a weighted random selection mechanism for jury selection and voting, achieving decentralized and transparent decision-making in a secure manner.',
     },
     {
@@ -164,7 +164,7 @@ const Projects: React.FC = () => {
                   ))}
                 </div>
                 <div className="flex space-x-3">
-                  <a
+                  {/* <a
                     href={project.liveUrl}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -172,7 +172,7 @@ const Projects: React.FC = () => {
                   >
                     <ExternalLink size={16} className="mr-1" />
                     <span>Live</span>
-                  </a>
+                  </a> */}
                   <a
                     href={project.githubUrl}
                     target="_blank"

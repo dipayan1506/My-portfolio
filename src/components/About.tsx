@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import Typed from 'typed.js';
+import pic from '../images/profilepic.jpeg';
 
 const About: React.FC = () => {
   const [ref, inView] = useInView({
@@ -62,7 +63,7 @@ const About: React.FC = () => {
           <motion.div variants={itemVariants} className="relative flex justify-center">
             <div className="relative w-60 h-60 overflow-hidden rounded-full shadow-xl">
               <img
-                src="https://images.pexels.com/photos/4342352/pexels-photo-4342352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src={pic}
                 alt="Professional portrait"
                 className="w-full h-full object-cover object-center"
                 loading="lazy"
@@ -89,7 +90,7 @@ const About: React.FC = () => {
               <a href="#contact" className="btn btn-primary">
                 Let’s Connect
               </a>
-              <a href="/resume.pdf" className="btn btn-outline">
+              <a href="https://drive.google.com/file/d/1dG2ChnRNUU2dnsXSUiMFnvGc9HQ5VBFz/view?usp=sharing" className="btn btn-outline">
                 Download Resume
               </a>
             </div>

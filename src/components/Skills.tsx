@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Code, Layout, Server, Palette, Figma, Database } from 'lucide-react';
+import { Code, Layout, Server,Palette, Figma, Database,Globe } from 'lucide-react';
 
 const Skills: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState('frontend');
@@ -14,7 +14,7 @@ const Skills: React.FC = () => {
     { id: 'frontend', label: 'Frontend', icon: <Layout size={20} /> },
     { id: 'backend', label: 'Backend', icon: <Server size={20} /> },
     { id: 'programming', label: 'Programming', icon: <Code size={20} /> },
-    // { id: 'design', label: 'Design', icon: <Palette size={20} /> },
+    { id: 'web3', label: 'Web3', icon: <Globe size={20} /> },
     { id: 'tools', label: 'Tools', icon: <Figma size={20} /> },
     { id: 'database', label: 'Database', icon: <Database size={20} /> },
   ];
@@ -37,10 +37,12 @@ const Skills: React.FC = () => {
 
     // <img src="" />
           
+            // <img src="" />
+          
     backend: [
       { name: 'Node.js', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
       { name: 'Express', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg' },
-      // { name: 'Python', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
+      { name: 'GraphQL', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg' },
       { name: 'Nest', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg' },
     ],
     programming: [
@@ -53,12 +55,33 @@ const Skills: React.FC = () => {
     ],
 
           
-    // design: [
-    //   { name: 'Figma', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg' },
-    //   { name: 'Adobe XD', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-plain.svg' },
-    //   { name: 'Photoshop', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg' },
-    //   { name: 'Illustrator', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg' },
-    // ],
+            // <img src="" />
+          
+   web3: [
+  {
+    name: 'Solidity',
+    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/solidity/solidity-original.svg'
+  },
+  {
+    name: 'Hardhat',
+    logo: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/hardhat.svg'
+  },
+  {
+    name: 'Ethers.js',
+    logo: 'https://cdn.jsdelivr.net/gh/chainstack/assets@main/images/logos/ethers.png'
+  },
+  {
+    name: 'Metamask',
+    logo: 'https://cdn.jsdelivr.net/gh/MetaMask/brand-resources@master/SVG/metamask-fox.svg'
+  },
+  {
+    name: 'IPFS',
+    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ipfs/ipfs-original.svg'
+  },
+ 
+ 
+]
+,
     tools: [
       { name: 'Git', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
       { name: 'VS Code', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg' },
@@ -69,8 +92,11 @@ const Skills: React.FC = () => {
       { name: 'MongoDB', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
       { name: 'PostgreSQL', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },
       { name: 'MySQL', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
-      { name: 'Redis', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg' },
+      { name: 'Prisma', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg' },
     ],
+
+            // <img src="/" />
+          
   };
 
   const containerVariants = {

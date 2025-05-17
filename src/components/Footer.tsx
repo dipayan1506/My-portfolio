@@ -16,14 +16,14 @@ const Footer: React.FC = () => {
             <ChevronUp size={24} className="text-white" />
           </a>
           
-          <div className="text-center mb-6">
+          {/* <div className="text-center mb-6">
             <h3 className="text-2xl font-bold text-white mb-2">Portfolio</h3>
             <p className="text-gray-400 max-w-md mx-auto">
               Creating beautiful digital experiences with passion and precision.
             </p>
-          </div>
+          </div> */}
           
-          <div className="flex justify-center space-x-6 mb-8">
+          {/* <div className="flex justify-center space-x-6 mb-8">
             <a 
               href="https://github.com" 
               target="_blank" 
@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
                 <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
               </svg>
             </a>
-          </div>
+          </div> */}
           
           <div className="w-24 h-px bg-gray-700 mb-8"></div>
           
@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
           </p>
           
           <p className="text-gray-500 text-xs mt-2 flex items-center">
-            Made with <Heart size={12} className="mx-1 text-accent-500" /> using React & Three.js
+            Made with <Heart size={12} className="mx-1 text-accent-500" /> 
           </p>
         </div>
       </div>

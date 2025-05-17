@@ -42,7 +42,7 @@ const Header: React.FC<HeaderProps> = ({ scrollY }) => {
       <div className="container-custom">
         <nav className="flex items-center justify-between">
           <a href="#home" className="text-xl font-bold text-primary-600 dark:text-primary-400">
-            Portfolio
+            {/* Portfolio */}
           </a>
 
           {/* Desktop Navigation */}
