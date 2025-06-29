@@ -33,7 +33,7 @@ const Projects: React.FC = () => {
       image: 'https://images.pexels.com/photos/7014766/pexels-photo-7014766.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       tags: ['React.js', 'JavaScript', 'Tailwind CSS', 'MongoDB', 'Express.js', 'Node.js', 'Socket.io'],
       description: 'Real-time chatting platform with secure user authentication and instant messaging capabilities.',
-      liveUrl: 'https://example.com',
+      liveUrl: 'https://chat-app-theta-ten-71.vercel.app/',
       githubUrl: 'https://github.com/dipayan1506/chat-app',
       details: 'Built a real-time chatting platform that supports user registration, login, and secure real-time communication, allowing multiple users to engage in instantaneous conversations on a responsive, cross-device interface. Integrated robust authentication using JWT and bcrypt for hashing passwords, ensuring secure data storage and user privacy. Utilized MongoDB for efficient storage of chat histories and user data.',
     },
