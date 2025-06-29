@@ -59,6 +59,17 @@ const Projects: React.FC = () => {
       githubUrl: 'https://github.com',
       details: 'Designed and developed a full-featured e-commerce platform with user registration, a dynamic product marketplace, and secure payment integration, allowing users to browse, add to cart, and complete transactions seamlessly. Enhanced performance, optimized load times, ensured smooth user experience, and secured authentication.',
     },
+        {
+      id: 4,
+      title: 'Token Sale Dapp',
+      category: 'Blockchain',
+      image: 'https://www.daulathussain.com/wp-content/uploads/2023/08/erc20-token-selling-dapp-ico-project.jpg',
+      tags: ['Next.js', 'Solidity', 'Hardhat', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'MongoDB', 'Express.js', 'Node.js'],
+      description: 'A decentralized application (DApp) for a token sale, built using Solidity, JavaScript, CSS, Ether.js, and Next.js.',
+      liveUrl: 'https://token-sale-dapp-phi.vercel.app/',
+      githubUrl: 'https://github.com/dipayan1506/Token-Sale-Dapp',
+      details: ' Built a Token Sale DApp, which allows users to purchase tokens through a decentralized platform. It leverages smart contracts written in Solidity and interacts with the Ethereum blockchain via Ether.js. The frontend is designed using Next.js, HTML, CSS, and JavaScript.',
+    },
   ];
 
   const categories = [
